@@ -5,13 +5,70 @@
 
 .five{
     color: #FFFF;
+    
+}
+.five h2{
+    font-size: 44px; 
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #7695FF;
 }
 
+.five p{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Paprika", system-ui;
+    color: #818FB4;
+   
+}
 .six{
     color: #FFFF;
     padding: 20px 0px;
+    margin-top: 20px;
+    transition: .5s;
+    border-radius: 12px;
+    padding-left: 10px;
+}
+.six:hover{
+    background-color: #4B70F5;
+   
 }
 
-.six:hover{
+/* .six:hover{
     background-color: blueviolet;
+} */
+
+.five button{
+    padding: 20px 30px;
+    background-color: #7695FF;
+    border-radius: 12px;
+    font-size: 18px; 
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #FFFF;
 }
+.five button:hover{
+    background-color: #4B70F5;
+}
+
+/* Ensure base styles for h2 and h4 */
+.six h2 {
+    font-size: 30px; 
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #FFFF; /* White color for h2 */
+}
+
+.six h4 {
+    font-size: 20px; 
+    font-weight: 600;
+    font-family: "Paprika", system-ui;
+    color: #818FB4; /* Grayish blue for h4 */
+}
+
+.six h3{
+ 
+    text-align: center;
+}
+
+

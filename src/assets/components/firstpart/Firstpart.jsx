@@ -16,7 +16,7 @@ const Firstpart = () => {
                 </Col>
                 <Col lg={{span:2, offset:4}}>
                 <div className="five">
-                  <button>Get a quote</button>
+                  <button>Get a quote <i class="fa-solid fa-square-arrow-up-right"></i></button>
                 </div>
                 </Col>
             </Row>
@@ -41,7 +41,7 @@ const Firstpart = () => {
                 <div className="seven"></div>
                 <Col lg={4}>
                 <div className="six">
-                    <h2>01. UI/UX Design</h2>
+                    <h2>02. Web Design</h2>
                 </div>
                 </Col>
                 <Col lg={5}>
@@ -57,7 +57,7 @@ const Firstpart = () => {
                 
                 <Col lg={4}>
                 <div className="six">
-                    <h2>01. UI/UX Design</h2>
+                    <h2>03. Web Development</h2>
                 </div>
                 </Col>
                 <Col lg={5}>
@@ -73,7 +73,7 @@ const Firstpart = () => {
                 
                 <Col lg={4}>
                 <div className="six">
-                    <h2>01. UI/UX Design</h2>
+                    <h2>04. Brand Identity Design</h2>
                 </div>
                 </Col>
                 <Col lg={5}>
@@ -89,7 +89,7 @@ const Firstpart = () => {
                 
                 <Col lg={4}>
                 <div className="six">
-                    <h2>01. UI/UX Design</h2>
+                    <h2>05. Website Layout Design</h2>
                 </div>
                 </Col>
                 <Col lg={5}>
@@ -103,21 +103,7 @@ const Firstpart = () => {
                 </div>
                 </Col>
                 
-                <Col lg={4}>
-                <div className="six">
-                    <h2>01. UI/UX Design</h2>
-                </div>
-                </Col>
-                <Col lg={5}>
-                <div className="six">
-                    <h4>Crafting responsive and engaging websites that align with your brand and business goals.</h4>
-                </div>
-                </Col>
-                <Col lg={{span:1, offset:2}}>
-                <div className="six">
-                    <h3><i class="fa-solid fa-circle-right"></i></h3>
-                </div>
-                </Col>
+             
             </Row>
         </Container>
     </section>

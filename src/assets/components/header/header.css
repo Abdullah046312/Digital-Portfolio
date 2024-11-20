@@ -40,7 +40,9 @@
 
   .left:hover{
     
-    background: linear-gradient(to right, #FFA62F, #5BBCFF, #FF204E);
+    background: linear-gradient(to right, #7695FF, #4B70F5, #7695FF);
     box-shadow: 0px 0px 12px #FFA62F;
+    color: #262626 !important;
+    
   }
   

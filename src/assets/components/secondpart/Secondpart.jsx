@@ -19,17 +19,17 @@ const Secondpart = () => {
                 </div>
                 </Col>
                 <Col lg={6}>
-                <div className="seven">
+                <div className="seven_one">
                     <button>View All Projects</button>
                 </div>
                 </Col>
-                <Col lg={6}>
+                <Col lg={7}>
                 <div className="eight">
-                   <li><a href="#">home</a></li>
-                   <li><a href="#">home</a></li>
-                   <li><a href="#">home</a></li>
-                   <li><a href="#">home</a></li>
-                   <li><a href="#">home</a></li>
+                   <li><a href="#">All Projects</a></li>
+                   <li><a href="#">BRANDING</a></li>
+                   <li><a href="#">WEB DESIGN</a></li>
+                   <li><a href="#">UI/UX</a></li>
+                   <li><a href="#">APP DEV</a></li>
                    
                 </div>
                 </Col>
@@ -61,11 +61,14 @@ const Secondpart = () => {
                    
                 </div>
                 </Col>
-               
-            </Row>
+                <Col lg={{span:2, offset:5}}>
+                
             <div className="ten">
                 <h3>View All</h3>
             </div>
+                </Col>
+               
+            </Row>
 
             
         </Container>

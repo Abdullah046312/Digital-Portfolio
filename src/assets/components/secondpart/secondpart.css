@@ -5,8 +5,42 @@
 
 .seven{
     color: #FFF;
+    
 }
 
+.seven h2{
+    font-size: 44px; 
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #7695FF;
+}
+.seven p{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Paprika", system-ui;
+    color: #818FB4;
+   
+}
+.seven_one{
+    text-align: end;
+}
+
+.seven_one button{
+    padding: 20px 30px;
+    background-color: #7695FF;
+    border-radius: 12px;
+    font-size: 18px; 
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #FFFF;
+}
+
+.seven_one button:hover{
+    background-color: #4B70F5;
+}
+.eight{
+    padding: 30px 0px;
+}
 .eight li{
     list-style: none;
     text-decoration: none;
@@ -18,18 +52,22 @@
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     padding: 15px 25px;
+    color: #7695FF;
+    transition: .5s;
+    border-radius: 12px;
     
 
 }
 .eight li a:hover{
     background-color: blueviolet;
-    padding: 15px 25px;
+    
+    color: #FFFF;
 }
 
 
 .eight{
     display: flex;
-    gap: 20px;
+    justify-content: space-around;
 }
 
 .nine img{
@@ -43,11 +81,21 @@
    
     color: #FFF;
    text-align: center;
-   background-color: red;
-   height: 100px;
-   width: 100px;
-   margin: 0 auto;
-   margin-top: 50px;
-   border-radius: 50px;
+   background-color: #7695FF;
+   margin-top: 60px;
+   height: 150px;
+   width: 150px;
+   border-radius: 50%;
+   transition: .2s;
+}
+.ten:hover{
+    background-color: #4B70F5;
+}
+.ten h3{
+  padding: 60px 0px;
+     font-size: 24px; 
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #ffffffc0;
 }
 
