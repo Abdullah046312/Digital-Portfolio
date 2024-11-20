@@ -1,0 +1,53 @@
+#second{
+    padding: 120px 0px;
+    background-color: rgba(0, 0, 0, 0.952);
+}
+
+.seven{
+    color: #FFF;
+}
+
+.eight li{
+    list-style: none;
+    text-decoration: none;
+}
+.eight li a{
+     
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    padding: 15px 25px;
+    
+
+}
+.eight li a:hover{
+    background-color: blueviolet;
+    padding: 15px 25px;
+}
+
+
+.eight{
+    display: flex;
+    gap: 20px;
+}
+
+.nine img{
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.ten{
+    
+   
+    color: #FFF;
+   text-align: center;
+   background-color: red;
+   height: 100px;
+   width: 100px;
+   margin: 0 auto;
+   margin-top: 50px;
+   border-radius: 50px;
+}
+

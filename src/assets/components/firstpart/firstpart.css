@@ -1,0 +1,17 @@
+#first{
+    background-color: black;
+    padding: 120px 0px;
+}
+
+.five{
+    color: #FFFF;
+}
+
+.six{
+    color: #FFFF;
+    padding: 20px 0px;
+}
+
+.six:hover{
+    background-color: blueviolet;
+}
